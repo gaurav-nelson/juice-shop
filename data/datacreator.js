@@ -223,8 +223,8 @@ function createQuantity () {
 }
 function createMemories () {
   const memories = [models.Memory.create({
-    imagePath: 'assets/public/images/uploads/😼-#zatschi-#whoneedsfourlegs-1572600969477.jpg',
-    caption: '😼 #zatschi #whoneedsfourlegs',
+    imagePath: 'assets/public/images/uploads/whoneedsfourlegs-1572600969477.jpg',
+    caption: 'zatschi-whoneedsfourlegs',
     UserId: datacache.users.bjoernOwasp.id
   }).catch((err) => {
     logger.error(`Could not create memory: ${err.message}`)
